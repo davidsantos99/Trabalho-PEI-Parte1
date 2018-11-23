@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<venda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.com/Vendas"
+	xsi:schemaLocation="http://www.BikeOnTrack.com/Vendas venda.xsd"
+	xmlns:p="http://www.BikeOnTrack.com/Produtos"
+	xmlns:s="http://www.BikeOnTrack.com/Stock"
+	xmlns:c="http://www.BikeOnTrack.com/Cliente"
+	xmlns:t="http://www.BikeOnTrack.com/Taxas">
+
+	<ReceiptID>1111</ReceiptID>
+	<OrderDate>2002-09-24</OrderDate>
+	<cliente>
+		<c:ID>1</c:ID>
+		<c:Nome>Jose</c:Nome>
+		<c:NIF>123123123</c:NIF>
+		<c:Morada>Rua Nova</c:Morada>
+		<c:Contactos>
+			<c:Email>jose@gmail.com</c:Email>
+			<c:Numero>911222333</c:Numero>
+		</c:Contactos>		
+	</cliente>
+	<taxas>
+		<t:CurrencyRateID>122</t:CurrencyRateID>
+		<t:CurrencyRateDate>2011-05-31T00:00:00</t:CurrencyRateDate>
+		<t:FromCurrencyCode>USD</t:FromCurrencyCode>
+		<t:ToCurrencyCode>AUD</t:ToCurrencyCode>
+		<t:RateVal>1</t:RateVal>		
+	</taxas>
+	<SubTotal>1294</SubTotal>
+	<TaxAmt>6206</TaxAmt>
+	<stock>
+		<s:ReceiptLineID>1</s:ReceiptLineID>
+		<s:Order>2</s:Order>
+		<s:produto>
+		    <p:ProductID>709</p:ProductID>
+		    <p:ProductName>Mountain Bike Socks, M</p:ProductName>
+		    <p:ProductNumber>SO-B909-M</p:ProductNumber>
+		    <p:Color>White</p:Color>
+		    <p:ListPrice>9.5</p:ListPrice>
+		    <p:SellStartDate>2011-05-31T00:00:00</p:SellStartDate>
+		    <p:SellEndDate>2012-05-29T00:00:00</p:SellEndDate>		
+		</s:produto>
+		<s:UnitPrice>1.50</s:UnitPrice>		
+	</stock>
+	<LineTotal>766</LineTotal>
+</venda>

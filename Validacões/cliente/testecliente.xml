@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.com/Cliente"
+	xsi:schemaLocation="http://www.BikeOnTrack.com/Cliente cliente.xsd">
+
+	<ID>1</ID>
+	<Nome>Jose</Nome>
+	<NIF>123123123</NIF>
+	<Morada>Rua Nova</Morada>
+	<Contactos>
+		<Email>jose@gmail.com</Email>
+		<Numero>911222333</Numero>
+	</Contactos>
+</cliente>
