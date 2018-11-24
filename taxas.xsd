@@ -52,9 +52,9 @@
     </xs:simpleType>
 
     <xs:simpleType name="RateVal">
-    	<xs:restriction base="xs:integer">
-    		<xs:minInclusive value="0"/>
-    		<xs:maxInclusive value="999999999"/>
+    	<xs:restriction base="xs:decimal">
+            <xs:totalDigits value="10"/>
+            <xs:fractionDigits value="4"/>
     	</xs:restriction>
     </xs:simpleType>
 </xs:schema>
