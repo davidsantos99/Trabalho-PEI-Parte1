@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImpostoTaxas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.BikeOnTrack.com/Taxas"
+	xsi:schemaLocation="http://www.BikeOnTrack.com/Taxas taxas.xsd">
+
+	<CurrencyRateID>122</CurrencyRateID>
+	<CurrencyRateDate>2011-05-31T00:00:00</CurrencyRateDate>
+	<FromCurrencyCode>USD</FromCurrencyCode>
+	<ToCurrencyCode>AUD</ToCurrencyCode>
+	<RateVal>1</RateVal>
+</ImpostoTaxas>
